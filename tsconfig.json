@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir": "./lib",
+    "target": "es2017",
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "allowJs": false,
+    "declaration": true,
+    "declarationDir": "lib/types",
+    "sourceMap": true,
+    "importHelpers": true,
+    "resolveJsonModule": false,
+    "types": [
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "jest"
+    ]
+  },
+  "exclude": [
+    "coverage",
+    "lib",
+    "node_modules"
+  ]
+}
