@@ -1,6 +1,6 @@
 {
   "name": "@nily/lru",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/NilyCat/lru",
   "repository": {
     "type": "git",
@@ -30,6 +30,12 @@
       "npm run lint",
       "npm run format"
     ]
+  },
+  "peerDependencies": {
+    "@nily/utils": "^0.1.0"
+  },
+  "dependencies": {
+    "@nily/utils": "^0.1.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -61,8 +67,5 @@
       "js",
       "json"
     ]
-  },
-  "dependencies": {
-    "@nily/utils": "^0.1.0"
   }
 }
