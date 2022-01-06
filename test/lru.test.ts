@@ -43,6 +43,7 @@ describe('LRU', () => {
       expires: 2
     })
     lru.put('a', 1)
+    lru.put('a', 2)
     await sleep(4)
     expect(lru.get('a')).toBe(undefined)
   })
